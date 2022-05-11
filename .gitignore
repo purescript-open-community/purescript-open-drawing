@@ -5,3 +5,5 @@ html/index.js
 .pulp-cache/
 .psc-ide-port
 .psc-package/
+.purs-repl
+.spago
