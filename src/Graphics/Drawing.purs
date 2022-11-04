@@ -70,7 +70,7 @@ circle x y = arc x y 0.0 (pi * 2.0)
 -- | Create a circular arc from the left, top, start angle, end angle and
 -- | radius parameters.
 arc :: Number -> Number -> Number -> Number -> Number -> Shape
-arc x y start end radius = Arc { x, y, start, end, radius, useCounterClockwise: true }
+arc x y start end radius = Arc { x, y, start, end, radius, useCounterClockwise: false }
 
 -- | Encapsulates fill color etc.
 newtype FillStyle = FillStyle
