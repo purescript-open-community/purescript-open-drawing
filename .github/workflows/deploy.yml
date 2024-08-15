@@ -17,6 +17,7 @@ jobs:
       - uses: purescript-contrib/setup-purescript@main
         with:
           purescript: "latest"
+          purs-backend-es: "latest"
           purs-tidy: "latest"
           spago: "unstable"
 
