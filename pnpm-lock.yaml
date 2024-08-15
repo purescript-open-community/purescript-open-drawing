@@ -11,9 +11,6 @@ importers:
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
-      purs-backend-es:
-        specifier: ^1.4.2
-        version: 1.4.2
       vite:
         specifier: ^5.4.0
         version: 5.4.0
@@ -270,10 +267,6 @@ packages:
     resolution: {integrity: sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  purs-backend-es@1.4.2:
-    resolution: {integrity: sha512-S9Dxq0rb21eyjtiYKv3S2Hw6T2JE3/uyRSG82BV1/iiDhoQIaie5aKb5EvHhOjfWlbF3dK6b0TWXaePdjqTHuw==}
-    hasBin: true
-
   rollup@4.20.0:
     resolution: {integrity: sha512-6rbWBChcnSGzIlXeIdNIZTopKYad8ZG8ajhl78lGRLsI2rX8IkaotQhVas2Ma+GPxJav19wrSzvRvuiv0YKzWw==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -479,8 +472,6 @@ snapshots:
       nanoid: 3.3.7
       picocolors: 1.0.1
       source-map-js: 1.2.0
-
-  purs-backend-es@1.4.2: {}
 
   rollup@4.20.0:
     dependencies:
