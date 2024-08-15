@@ -13,6 +13,13 @@ jobs:
           lfs: true
       - name: Checkout LFS objects
         run: git lfs checkout
+
+      - uses: purescript-contrib/setup-purescript@main
+        with:
+          purescript: "latest"
+          purs-tidy: "latest"
+          spago: "unstable"
+
       - name: Cache purescript dependencies
         uses: actions/cache@v2
         with:
@@ -23,6 +30,7 @@ jobs:
           key: >-
             ${{ hashFiles('package-lock.json') }}-
             ${{ hashFiles('spago.lock') }}
+
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
