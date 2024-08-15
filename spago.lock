@@ -1,12 +1,7 @@
 workspace:
   packages:
-    example:
-      path: example
-      dependencies: []
-      test_dependencies: []
-      build_plan: []
     open-drawing:
-      path: ./
+      path: lib
       dependencies:
         - canvas: ">=6.0.0 <7.0.0"
         - colors: ">=7.0.1 <8.0.0"
@@ -48,6 +43,64 @@ workspace:
         - newtype
         - nonempty
         - numbers
+        - orders
+        - partial
+        - prelude
+        - profunctor
+        - refs
+        - safe-coerce
+        - st
+        - strings
+        - tailrec
+        - tuples
+        - type-equality
+        - unfoldable
+        - unsafe-coerce
+    open-drawing-example:
+      path: example
+      dependencies:
+        - arrays
+        - canvas
+        - colors
+        - effect
+        - foldable-traversable
+        - integers
+        - maybe
+        - numbers
+        - open-drawing
+        - partial
+        - prelude
+      test_dependencies: []
+      build_plan:
+        - arraybuffer-types
+        - arrays
+        - bifunctors
+        - canvas
+        - colors
+        - console
+        - const
+        - contravariant
+        - control
+        - distributive
+        - effect
+        - either
+        - enums
+        - exceptions
+        - exists
+        - foldable-traversable
+        - functions
+        - functors
+        - gen
+        - identity
+        - integers
+        - invariant
+        - lazy
+        - lists
+        - maybe
+        - newtype
+        - nonempty
+        - numbers
+        - open-drawing
         - orders
         - partial
         - prelude

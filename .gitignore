@@ -1,9 +1,12 @@
 .psci*
 bower_components/
 output/
+output-es/
 .psc-package
 .psc-ide-port
 .purs-repl
+node_modules/
+dist/
 
 generated-docs/html/*
 generated-docs/md/*

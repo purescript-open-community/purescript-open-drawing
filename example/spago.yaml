@@ -1,6 +1,17 @@
 package:
-  name: example
-  dependencies: []
-  test:
-    dependencies: []
-    main: Main
+  name: open-drawing-example
+  dependencies:
+    - canvas
+    - colors
+    - effect
+    - foldable-traversable
+    - maybe
+    - arrays
+    - integers
+    - partial
+    - numbers
+    - prelude
+    - open-drawing
+  # test:
+  #   dependencies: []
+  #   main: Main
