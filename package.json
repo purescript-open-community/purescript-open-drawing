@@ -11,7 +11,8 @@
     "example-production:serve":   "serve dist",
     "example-production:preview": "vite preview --open",
     "example-dev:vite":           "vite dev --open",
-    "example-dev:spago":          "watchexec -e purs,js,yaml -- spago build"
+    "example-dev:spago":          "watchexec -e purs,js,yaml -- spago build",
+    "publish":                    "spago publish -p open-drawing"
   },
   "browserslist": "defaults, not ie <= 11",
   "devDependencies": {
