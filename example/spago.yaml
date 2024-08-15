@@ -11,7 +11,7 @@ package:
     - partial
     - numbers
     - prelude
-    # - open-drawing
+    - open-drawing # why spago publish fails unless commented?
   # test:
   #   dependencies: []
   #   main: Main
