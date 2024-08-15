@@ -16,6 +16,7 @@
   "browserslist": "defaults, not ie <= 11",
   "devDependencies": {
     "vite": "^5.4.0",
+    "purs-backend-es": "^1.4.2",
     "js-yaml": "^4.1.0"
   }
 }
