@@ -25,15 +25,11 @@ jobs:
             ${{ hashFiles('spago.lock') }}
       - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
-        id: pnpm-install
         with:
-          version: 7.13.2
           run_install: false
 
       - name: Get pnpm store directory
-        id: pnpm-cache
-        run: |
-          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+        run: echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
 
       - uses: actions/cache@v3
         name: Setup pnpm cache
@@ -42,7 +38,7 @@ jobs:
           key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
-      - run: pnpm i && pnpm test && pnpm build
+      - run: pnpm i && pnpm test && pnpm example-production:build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

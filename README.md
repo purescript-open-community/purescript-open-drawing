@@ -13,6 +13,11 @@ Functional rendering using PureScript and HTML 5 Canvas
 
 Run the example with `npm run example`.
 
+
+## Check live
+
+https://purescript-open-community.github.io/purescript-open-drawing/
+
 ## Installation
 
 ```
