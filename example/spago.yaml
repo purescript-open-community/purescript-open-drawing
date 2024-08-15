@@ -11,7 +11,7 @@ package:
     - partial
     - numbers
     - prelude
-    - open-drawing
+    # - open-drawing
   # test:
   #   dependencies: []
   #   main: Main
