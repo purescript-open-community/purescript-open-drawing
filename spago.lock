@@ -67,7 +67,6 @@ workspace:
         - integers
         - maybe
         - numbers
-        - open-drawing
         - partial
         - prelude
       test_dependencies: []
@@ -77,7 +76,6 @@ workspace:
         - bifunctors
         - canvas
         - colors
-        - console
         - const
         - contravariant
         - control
@@ -100,7 +98,6 @@ workspace:
         - newtype
         - nonempty
         - numbers
-        - open-drawing
         - orders
         - partial
         - prelude
