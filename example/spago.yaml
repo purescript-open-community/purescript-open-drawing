@@ -1,0 +1,6 @@
+package:
+  name: example
+  dependencies: []
+  test:
+    dependencies: []
+    main: Main
