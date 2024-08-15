@@ -5,6 +5,5 @@ workspace:
   #   cmd: purs-backend-es
   #   args:
   #     - build
-  extraPackages: {}
   packageSet:
     registry: 57.1.0
