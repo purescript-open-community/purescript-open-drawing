@@ -113,13 +113,13 @@ workspace:
         - unsafe-coerce
   package_set:
     address:
-      registry: 57.1.0
+      registry: 60.0.1
     compiler: ">=0.15.15 <0.16.0"
     content:
       abc-parser: 2.0.1
       ace: 9.1.0
       address-rfc2821: 0.1.1
-      aff: 7.1.0
+      aff: 8.0.0
       aff-bus: 6.0.0
       aff-coroutines: 9.0.0
       aff-promise: 4.0.0
@@ -178,7 +178,7 @@ workspace:
       classnames: 2.0.0
       codec: 6.1.0
       codec-argonaut: 10.0.0
-      codec-json: 1.2.0
+      codec-json: 2.0.0
       colors: 7.0.1
       concur-core: 0.5.0
       concur-react: 0.5.0
@@ -281,7 +281,7 @@ workspace:
       halogen-css: 10.0.0
       halogen-echarts-simple: 0.0.4
       halogen-formless: 4.0.3
-      halogen-helix: 1.0.0
+      halogen-helix: 1.0.1
       halogen-hooks: 0.6.3
       halogen-hooks-extra: 0.9.0
       halogen-infinite-scroll: 1.1.0
@@ -409,9 +409,10 @@ workspace:
       object-maps: 0.3.0
       ocarina: 1.5.4
       oooooooooorrrrrrrmm-lib: 0.0.1
-      open-folds: 6.3.0
-      open-memoize: 6.1.0
-      open-pairing: 6.1.0
+      open-folds: 6.4.0
+      open-memoize: 6.2.0
+      open-mkdirp-aff: 1.2.0
+      open-pairing: 6.2.0
       options: 7.0.0
       optparse: 5.0.1
       ordered-collections: 3.2.0
@@ -434,12 +435,12 @@ workspace:
       pointed-list: 0.5.1
       polymorphic-vectors: 4.0.0
       posix-types: 6.0.0
-      postgresql: 2.0.17
+      postgresql: 2.0.19
       precise: 6.0.0
       precise-datetime: 7.0.0
       prelude: 6.0.1
       prettier-printer: 3.0.0
-      priority-queue: 0.1.0
+      priority-queue: 0.1.2
       profunctor: 6.0.1
       profunctor-lenses: 8.0.0
       protobuf: 4.3.0
@@ -511,10 +512,10 @@ workspace:
       soundfonts: 4.1.0
       sparse-matrices: 2.0.1
       sparse-polynomials: 3.0.1
-      spec: 7.6.1
+      spec: 8.0.0
       spec-discovery: 8.3.0
       spec-mocha: 5.1.1
-      spec-node: 0.0.1
+      spec-node: 0.0.2
       spec-quickcheck: 5.0.2
       spec-reporter-xunit: 0.7.1
       splitmix: 2.1.0
