@@ -99,6 +99,7 @@
             "integers",
             "maybe",
             "numbers",
+            "open-drawing",
             "partial",
             "prelude"
           ],
@@ -130,6 +131,7 @@
             "newtype",
             "nonempty",
             "numbers",
+            "open-drawing",
             "orders",
             "partial",
             "prelude",
