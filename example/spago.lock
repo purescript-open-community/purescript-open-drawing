@@ -1,94 +1,8 @@
 {
   "workspace": {
     "packages": {
-      "open-drawing": {
-        "path": "./",
-        "core": {
-          "dependencies": [
-            {
-              "canvas": ">=6.0.0 <7.0.0"
-            },
-            {
-              "colors": ">=7.0.1 <8.0.0"
-            },
-            {
-              "control": ">=6.0.0 <7.0.0"
-            },
-            {
-              "effect": ">=4.0.0 <5.0.0"
-            },
-            {
-              "foldable-traversable": ">=6.0.0 <7.0.0"
-            },
-            {
-              "lists": ">=7.0.0 <8.0.0"
-            },
-            {
-              "maybe": ">=6.0.0 <7.0.0"
-            },
-            {
-              "numbers": ">=9.0.1 <10.0.0"
-            },
-            {
-              "prelude": ">=6.0.1 <7.0.0"
-            }
-          ],
-          "build_plan": [
-            "arraybuffer-types",
-            "arrays",
-            "bifunctors",
-            "canvas",
-            "colors",
-            "const",
-            "contravariant",
-            "control",
-            "distributive",
-            "effect",
-            "either",
-            "enums",
-            "exceptions",
-            "exists",
-            "foldable-traversable",
-            "functions",
-            "functors",
-            "gen",
-            "identity",
-            "integers",
-            "invariant",
-            "lazy",
-            "lists",
-            "maybe",
-            "newtype",
-            "nonempty",
-            "numbers",
-            "orders",
-            "partial",
-            "prelude",
-            "profunctor",
-            "refs",
-            "safe-coerce",
-            "st",
-            "strings",
-            "tailrec",
-            "tuples",
-            "type-equality",
-            "unfoldable",
-            "unsafe-coerce"
-          ]
-        },
-        "test": {
-          "dependencies": [
-            "console"
-          ],
-          "build_plan": [
-            "console",
-            "effect",
-            "prelude"
-          ]
-        }
-      },
       "open-drawing-example": {
-        "path": "example",
+        "path": "./",
         "core": {
           "dependencies": [
             "arrays",
@@ -701,7 +615,11 @@
         "zipperarray": "2.0.0"
       }
     },
-    "extra_packages": {}
+    "extra_packages": {
+      "open-drawing": {
+        "path": "../"
+      }
+    }
   },
   "packages": {
     "arraybuffer-types": {
@@ -766,15 +684,6 @@
         "numbers",
         "partial",
         "strings"
-      ]
-    },
-    "console": {
-      "type": "registry",
-      "version": "6.1.0",
-      "integrity": "sha256-CxmAzjgyuGDmt9FZW51VhV6rBPwR6o0YeKUzA9rSzcM=",
-      "dependencies": [
-        "effect",
-        "prelude"
       ]
     },
     "const": {
@@ -1038,6 +947,21 @@
       "dependencies": [
         "functions",
         "maybe"
+      ]
+    },
+    "open-drawing": {
+      "type": "local",
+      "path": "../",
+      "dependencies": [
+        "canvas",
+        "colors",
+        "control",
+        "effect",
+        "foldable-traversable",
+        "lists",
+        "maybe",
+        "numbers",
+        "prelude"
       ]
     },
     "orders": {
